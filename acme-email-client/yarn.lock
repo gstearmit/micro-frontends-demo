@@ -2,13 +2,14 @@
 # yarn lockfile v1
 
 
-"@angular-architects/module-federation@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@angular-architects/module-federation/-/module-federation-1.0.2.tgz#b06bd3d723f09c5dcda457c8e39a8c8f7ee32507"
-  integrity sha512-wOEVQCF9kEr3+AOvhBiNEkIVwS8Nvg8A2NH2sb8gqftXCXNzR5+G6Osfia7y5ShB7P7/cIHKOYqm57ycBi5EOg==
+"@angular-architects/module-federation@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@angular-architects/module-federation/-/module-federation-1.2.3.tgz#7308ce9b70d3c6c9ba640596fc9b27c399486011"
+  integrity sha512-DtAbOzwQriRuSTWSIn+RvKYSnw68iBNfnC9rqIvqMZTbzQBcZs7ogAwFbwM8TcskMUq7CMr1csrGO6Au7rpoYQ==
   dependencies:
     "@nrwl/workspace" "^10.3.0"
     cross-spawn "^7.0.3"
+    json5 "^2.1.3"
     ngx-build-plus "^10.0.0"
 
 "@angular-builders/custom-webpack@~10.0.1":
@@ -4999,6 +5000,13 @@ json5@^2.1.2:
   version "2.1.3"
   resolved "https://registry.yarnpkg.com/json5/-/json5-2.1.3.tgz#c9b0f7fa9233bfe5807fe66fcf3a5617ed597d43"
   integrity sha512-KXPvOm8K9IJKFM0bmdn8QXh7udDh1g/giieX0NLCaMnb4hEiVFqnop2ImTXCc5e0/oHz3LTqmHGtExn5hfMkOA==
+  dependencies:
+    minimist "^1.2.5"
+
+json5@^2.1.3:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.0.tgz#2dfefe720c6ba525d9ebd909950f0515316c89a3"
+  integrity sha512-f+8cldu7X/y7RAJurMEJmdoKXGB/X550w2Nr3tTbezL6RwEE/iMcm+tZnXeoZtKuOq6ft8+CqzEkrIgx1fPoQA==
   dependencies:
     minimist "^1.2.5"
 

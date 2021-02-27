@@ -14,7 +14,7 @@
   },
   "private": true,
   "dependencies": {
-    "@angular-architects/module-federation": "^1.0.2",
+    "@angular-architects/module-federation": "^1.2.3",
     "@angular/animations": "~11.0.0-next.6",
     "@angular/common": "~11.0.0-next.6",
     "@angular/compiler": "~11.0.0-next.6",
